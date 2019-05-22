@@ -3,6 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <repositories>
+        <repository>
+            <id>Mkemp63-friendspammer</id>
+            <url>
+                https://packagecloud.io/priv/19b6f546cb1b89f49ad5e32141961c6c512fd3f1e8ff4c64/Mkemp63/friendspammer/maven2
+            </url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
     <groupId>nl.hu.sie.bep.Opdracht03</groupId>
     <artifactId>friendspammer-web</artifactId>
@@ -12,6 +26,7 @@
     <build>
         <finalName>friendspammer-web</finalName>
     </build>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -26,3 +41,4 @@
         </dependency>
     </dependencies>
 </project>
+
